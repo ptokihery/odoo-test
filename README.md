@@ -93,7 +93,7 @@ Dans le but d’enrichir cette fonctionnalité, votre défi consiste à mettre e
 - Récupération du module prédéfini
 
 ```bash
-git clone https://github.com/ratastech/odoomaster2023.git
+git clone git@gitlab.com:eufo.nie/odoo_test.git
 ```
 
 - Assurez-vous que vous êtes bien sur la branche `main`
