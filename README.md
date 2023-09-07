@@ -126,21 +126,21 @@ git push -u origin vote_prenom
 
 | <b>Rubriques</b> | <b>Tâches</b>                                                                                                                                                   | <b>Pts</b> |
 | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| Configuration    | [1](#1) - Cocher par défaut "Approbation du bon de commande"                                                                                                    | 1,5        |
-|                  | [2](#2) - Fixer le seuil d'approbation à 2500€                                                                                                                  | 1,5        |
-| Commande         | [3](#3) - Déplacer le champ "Acheteur" au dessus du champ "Date d'échéance"                                                                                     | 1          |
-|                  | [4](#4) - Rendre le champs "Acheteur" vide par défaut                                                                                                           | 0,5        |
-|                  | [5](#5) - S'assurer que le champ "Acheteur" soit vide après duplication d'une commande                                                                          | 0,5        |
-|                  | [6](#6) - Lever une exception de type "ValidationError" si la commande a besoin d'une approbation et que l'acheteur n'est pas renseigné au moment de valider    | 1          |
-|                  | [7](#7) - Au moment de valider, si la commande n'a pas besoin d'une approbation, l'acheteur deviendra automatiquement l'utilisateur qui est en train de valider | 1          |
-|                  | [8](#8) - Filtrer, depuis la vue XML, le champ "Acheteur" pour n'afficher que les utilisateurs appartenant au groupe Achat/Administrateur                       | 1          |
-| Fournisseur      | [9](#9) - Pouvoir faire une exception pour certains fournisseurs en utilisant le champ "Pas besoin d'approbation"                                               | 1,5        |
-| À approuver      | [10](#10) - Filtrer les commande qui apparaissent dans le menu "À approuver" (commande à l'état "À approuver" dont l'acheteur est l'utilisateur connecté)       | 0,5        |
-|                  | [11](#11) - Ajouter un bouton "Annuler" sur chaque ligne (Utiliser fa-times pour la petite icône)                                                               | 1          |
-|                  | [12](#12) - Pouvoir annuler en masse les commandes                                                                                                              | 1,5        |
-|                  | [13](#13) - Ajouter un message de confirmation avant de déclencher l'action d'annulation (que ce soit pour l'annulation par ligne ou en masse)                  | 0,5        |
-|                  | [14](#14) - Rendre le menu "À approuver" disponible que pour les Achat/Administrateur                                                                           | 0,5        |
-|                  | [15](#15) - Ne pas autoriser la création d'une commande depuis le menu "À approuver"                                                                            | 0,5        |
-|                  | [16](#16) - Afficher le total des montants à la fin de la liste                                                                                                 | 1          |
-|                  | [17](#17) - Implémenter le bouton "Tout approuver" pour pouvoir valider toutes les commandes à approuver (JS)                                                   | 5          |
-| Partout          | Traduction (Bonus)                                                                                                                                              | 1          |
+| Configuration    | [1](#1) - Cocher par défaut "Approbation du bon de commande"                                                                                                    |         |
+|                  | [2](#2) - Fixer le seuil d'approbation à 2500€                                                                                                                  |         |
+| Commande         | [3](#3) - Déplacer le champ "Acheteur" au dessus du champ "Date d'échéance"                                                                                     |           |
+|                  | [4](#4) - Rendre le champs "Acheteur" vide par défaut                                                                                                           |         |
+|                  | [5](#5) - S'assurer que le champ "Acheteur" soit vide après duplication d'une commande                                                                          |        |
+|                  | [6](#6) - Lever une exception de type "ValidationError" si la commande a besoin d'une approbation et que l'acheteur n'est pas renseigné au moment de valider    |           |
+|                  | [7](#7) - Au moment de valider, si la commande n'a pas besoin d'une approbation, l'acheteur deviendra automatiquement l'utilisateur qui est en train de valider |         |
+|                  | [8](#8) - Filtrer, depuis la vue XML, le champ "Acheteur" pour n'afficher que les utilisateurs appartenant au groupe Achat/Administrateur                       |          |
+| Fournisseur      | [9](#9) - Pouvoir faire une exception pour certains fournisseurs en utilisant le champ "Pas besoin d'approbation"                                               |      |
+| À approuver      | [10](#10) - Filtrer les commande qui apparaissent dans le menu "À approuver" (commande à l'état "À approuver" dont l'acheteur est l'utilisateur connecté)       |        |
+|                  | [11](#11) - Ajouter un bouton "Annuler" sur chaque ligne (Utiliser fa-times pour la petite icône)                                                               |         |
+|                  | [12](#12) - Pouvoir annuler en masse les commandes                                                                                                              |         |
+|                  | [13](#13) - Ajouter un message de confirmation avant de déclencher l'action d'annulation (que ce soit pour l'annulation par ligne ou en masse)                  |         |
+|                  | [14](#14) - Rendre le menu "À approuver" disponible que pour les Achat/Administrateur                                                                           |        |
+|                  | [15](#15) - Ne pas autoriser la création d'une commande depuis le menu "À approuver"                                                                            |        |
+|                  | [16](#16) - Afficher le total des montants à la fin de la liste                                                                                                 |           |
+|                  | [17](#17) - Implémenter le bouton "Tout approuver" pour pouvoir valider toutes les commandes à approuver (JS)                                                   |           |
+| Partout          | Traduction (Bonus)                                                                                                                                              |          |
