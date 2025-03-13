@@ -1,4 +1,4 @@
-# Copyright 2023 Etech
+# Copyright 2023 Eufonie
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 {
