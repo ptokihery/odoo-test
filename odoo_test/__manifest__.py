@@ -2,13 +2,13 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 {
-    'name': 'Odoo Master Challenge',
+    'name': 'Odoo Test',
     'description': """
         Double purchase validation""",
     'version': '16',
     'license': 'AGPL-3',
-    'author': 'Etech',
-    'website': 'https://www.etechconsulting-mg.com',
+    'author': 'Eufonie Dev',
+    'website': 'https://eufonie.fr',
     'depends': [
         "purchase"
     ],
@@ -18,8 +18,8 @@
     ],
     'assets': {
         'web.assets_backend': [
-            'odoo_master_challenge/static/src/js/purchase_order_list_view.js',
-            'odoo_master_challenge/static/src/xml/purchase_approve_all.xml',
+            'odoo_test/static/src/js/purchase_order_list_view.js',
+            'odoo_test/static/src/xml/purchase_approve_all.xml',
         ],
     }
 }
