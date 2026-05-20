@@ -1,4 +1,4 @@
-# Copyright 2023 Etech
+# Copyright 2025 Eufonie
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 from odoo.tests.common import SingleTransactionCase
